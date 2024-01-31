@@ -259,7 +259,7 @@ section .title::after{
 
 /* services section styling */
 .services, .teams{
-    color:#fff;
+    color:#000000;
     background: #bce1eb;
 }
 .services .title::before,
@@ -274,7 +274,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    /* background: #222; */
+    background:#beebf8;
     
     text-align: center;
     border-radius: 6px;
@@ -283,7 +283,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: rgb(33, 159, 227);;
+    background: #b3dce7;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -484,7 +484,7 @@ section .title::after{
   color: rgb(33, 159, 227);;
   background: none;
 }
-/* footer section styling */
+/* footer section styling */  
 footer{
     background:rgb(33, 159, 227);
     padding: 15px 23px;
@@ -818,4 +818,22 @@ footer span a:hover{
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
+}
+
+
+#services{
+    background: #fff;
+}
+
+#contact{
+    background:#bce1eb ;
+}
+
+/* .greeting-image-div{
+    height:100px;
+    width:100px;
+} */
+
+#pic{
+    margin-top: 0%;
 }

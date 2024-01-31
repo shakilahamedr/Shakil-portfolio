@@ -71,7 +71,7 @@ section .title::after{
     bottom: -8px;
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: rgb(33, 159, 227);;
     padding: 0 5px;
     background: #fff;
     transform: translateX(-50%);
@@ -88,7 +88,7 @@ section .title::after{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: rgb(33, 159, 227);;
 }
 .navbar .max-width{
     display: flex;
@@ -101,7 +101,7 @@ section .title::after{
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: rgb(33, 159, 227);;
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
@@ -120,7 +120,7 @@ section .title::after{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgb(33, 159, 227);;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -137,7 +137,7 @@ section .title::after{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    /* background: rgb(33, 159, 227);; */
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -165,9 +165,9 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner2.jpg") no-repeat center;
+    /* background: url("images/banner2.jpg") no-repeat center; */
     height: 100vh;
-    color: #fff;
+    /* color: #fff; */
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -193,23 +193,23 @@ section .title::after{
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: rgb(33, 159, 227);
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: rgb(33, 159, 227);;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(33, 159, 227);;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: crimson;
+    color: rgb(33, 159, 227);;
     background: none;
 }
 
@@ -230,37 +230,37 @@ section .title::after{
     width: 55%;
 }
 .about .about-content .right .text{
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 600;
     margin-bottom: 10px;
 }
 .about .about-content .right .text span{
-    color: crimson;
+    color: rgb(33, 159, 227);;
 }
 .about .about-content .right p{
     text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: rgb(33, 159, 227);;
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(33, 159, 227);;
     transition: all 0.3s ease;
 }
 .about .about-content .right a:hover{
-    color: crimson;
+    color: rgb(33, 159, 227);;
     background: none;
 }
 
 /* services section styling */
 .services, .teams{
     color:#fff;
-    background: #111;
+    background: #bce1eb;
 }
 .services .title::before,
 .teams .title::before{
@@ -268,12 +268,14 @@ section .title::after{
 }
 .services .title::after,
 .teams .title::after{
-    background: #111;
+    /* background: #111; */
+    
     content: "what i have done";
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    /* background: #222; */
+    
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -281,7 +283,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: rgb(33, 159, 227);;
 }
 .services .serv-content .card .box{
     transition: all 0.3s ease;
@@ -291,7 +293,7 @@ section .title::after{
 }
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: rgb(33, 159, 227);;
     transition: color 0.3s ease;
 }
 .services .serv-content .card:hover i{
@@ -321,18 +323,18 @@ section .title::after{
 }
 /* .skills .skills-content .left a{
     display: inline-block;
-    background: crimson;
+    background: rgb(33, 159, 227);;
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 16px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(33, 159, 227);;
     transition: all 0.3s ease;
 } */
 .skills .skills-content .left a:hover{
-    color: crimson;
+    color: rgb(33, 159, 227);;
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -360,7 +362,7 @@ section .title::after{
     height: 100%;
     left: 0;
     top: 0;
-    background: crimson;
+    background: rgb(33, 159, 227);;
 }
 .skills-content .right .html::before{
     width: 90%;
@@ -415,7 +417,7 @@ section .title::after{
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: rgb(33, 159, 227);;
 }
 .contact .contact-content .info .head{
     font-weight: 500;
@@ -474,23 +476,23 @@ section .title::after{
   border-radius: 6px;
   cursor: pointer;
   flex-wrap: nowrap;
-  background: crimson;
-  border: 2px solid crimson;
+  background: rgb(33, 159, 227);;
+  border: 2px solid rgb(33, 159, 227);;
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: crimson;
+  color: rgb(33, 159, 227);;
   background: none;
 }
 /* footer section styling */
 footer{
-    background: #111;
+    background:rgb(33, 159, 227);
     padding: 15px 23px;
     color: #fff;
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: rgb(33, 159, 227);;
     text-decoration: none;
 }
 footer span a:hover{
@@ -631,11 +633,11 @@ footer span a:hover{
 #experience {
     padding: 50px 15px;
     text-align: center;
-    border-bottom: 1px solid #dcd9d9
+    border-bottom: 1px solid #171616
 }
 
 #experience h2 {
-    color: #ece9e9
+    color: #171616
 }
 
 #experience-timeline {
@@ -647,13 +649,13 @@ footer span a:hover{
 #experience-timeline:before {
     position: absolute;
     content: '';
-    top: 0;
-    bottom: 0;
+    /* top: 0; */
+    /* bottom: 0; */
     left: 303px;
     right: auto;
     height: 100%;
     width: 3px;
-    background: #e92d2d;
+    background: rgb(33, 159, 227);;
     z-index: 0
 }
 
@@ -661,8 +663,9 @@ footer span a:hover{
     position: absolute;
     content: '';
     width: 3px;
-    height: 40px;
-    background: #ec1b04;
+    height: 60px;
+    /* height: 100%; */
+    background: rgb(33, 159, 227);;
     background: linear-gradient(to bottom, #3498db, rgba(52,152,219,0));
     top: 100%;
     left: 303px
@@ -670,16 +673,16 @@ footer span a:hover{
 
 .vtimeline-content {
     margin-left: 350px;
-    /* background: #c18585; */
-    background: #222;
-    /* border: 1px solid #c4abab; */
+    /* background: #7ab9ec; */
+    /* background: #222; */
+    border: 1px solid #171616;
     padding: 15px;
     border-radius: 3px;
     text-align: left
 }
 
 .home .home-content a:hover{
-    color: crimson;
+    color: rgb(33, 159, 227);;
     background: none;
 }
 
@@ -687,7 +690,7 @@ footer span a:hover{
     font-size: 1.5em;
     font-weight: 300;
     /* color: #060606; */
-    color: white;
+    color: #171616;
     display: inline-block;
     margin: 0
 }
@@ -696,13 +699,13 @@ footer span a:hover{
     font-size: 1.2em;
     font-weight: 300;
     /* color: #040405; */
-    color: white;
+    color: #171616;
     margin: 0 0 15px 0
 }
 
 .vtimeline-content p {
     /* color: #0f0f10; */
-    color: white;
+    color: #171616;
     font-size: 0.9em;
     margin: 0
 }
@@ -719,7 +722,7 @@ footer span a:hover{
     color: #fff;
     width: 50px;
     height: 50px;
-    background: #ef0414;
+    background: rgb(33, 159, 227);
     border-radius: 50%;
     float: left;
     z-index: 99;
@@ -740,14 +743,15 @@ footer span a:hover{
     top: 10px;
     font-weight: 300;
     /* color: #374054; */
-    color: white;
+    color: #171616;
 }
 
-.etitle{
+.teams .etitle{
     position: relative;
     text-align: center;
     font-size: 40px;
     font-weight: 500;
+    color: #fff;
     margin-bottom: 60px;
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
@@ -759,4 +763,59 @@ footer span a:hover{
     font-style: bold;
     font-weight: 300;
     color: #111;
+}
+
+
+
+
+
+/* Contact icon  */
+
+.icon-button{
+    padding: 20px;
+    margin-right: 30px;
+    font-size: 40px;
+    color:rgb(33, 159, 227); ;
+}
+
+
+
+/* skills */
+#skills {
+    padding: 50px 15px;
+    text-align: center
+}
+
+#skills h2 {
+    color: #374054;
+    margin-bottom: 50px
+}
+
+#skills ul {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 800px
+}
+
+#skills li {
+    display: inline-block;
+    margin: 7px;
+    padding: 5px 10px;
+    color: #374054;
+    background: #e4e4ea;
+    list-style: none;
+    cursor: default;
+    font-size: 25px
+}
+
+.skill-title{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
